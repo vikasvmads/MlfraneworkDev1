@@ -1,0 +1,85 @@
+{
+    "tables": {
+        "Products": {
+            "tableName": "Products",
+            "schema": {
+                "id": {
+                    "allowNull": false,
+                    "primaryKey": true,
+                    "autoIncrement": true,
+                    "field": "id",
+                    "seqType": "Sequelize.INTEGER"
+                },
+                "code": {
+                    "allowNull": false,
+                    "IsEmpty": false,
+                    "field": "code",
+                    "seqType": "Sequelize.STRING"
+                },
+                "name": {
+                    "allowNull": false,
+                    "IsEmpty": false,
+                    "field": "name",
+                    "seqType": "Sequelize.STRING"
+                },
+                "description": {
+                    "allowNull": false,
+                    "IsEmpty": false,
+                    "field": "description",
+                    "seqType": "Sequelize.STRING"
+                },
+                "image": {
+                    "allowNull": false,
+                    "IsEmpty": false,
+                    "field": "image",
+                    "seqType": "Sequelize.STRING"
+                },
+                "price": {
+                    "allowNull": false,
+                    "IsEmpty": false,
+                    "field": "price",
+                    "seqType": "Sequelize.INTEGER"
+                },
+                "category": {
+                    "allowNull": false,
+                    "IsEmpty": false,
+                    "field": "category",
+                    "seqType": "Sequelize.STRING"
+                },
+                "quantity": {
+                    "allowNull": false,
+                    "IsEmpty": false,
+                    "field": "quantity",
+                    "seqType": "Sequelize.INTEGER"
+                },
+                "inventoryStatus": {
+                    "allowNull": false,
+                    "IsEmpty": false,
+                    "field": "inventoryStatus",
+                    "seqType": "Sequelize.STRING"
+                },
+                "rating": {
+                    "allowNull": false,
+                    "IsEmpty": false,
+                    "field": "rating",
+                    "seqType": "Sequelize.INTEGER"
+                },
+                "createdAt": {
+                    "allowNull": false,
+                    "field": "createdAt",
+                    "seqType": "Sequelize.DATE"
+                },
+                "updatedAt": {
+                    "allowNull": false,
+                    "field": "updatedAt",
+                    "seqType": "Sequelize.DATE"
+                }
+            },
+            "indexes": []
+        }
+    },
+    "path": "/Users/vikasmishra/desktop/SoothSayer/MLFramework demo/migrations/_current.json",
+    "backupPath": "/Users/vikasmishra/desktop/SoothSayer/MLFramework demo/migrations/_current_bak.json",
+    "exists": true,
+    "revision": 2
+}

@@ -1,0 +1,37 @@
+{
+    "tables": {
+        "Companies": {
+            "tableName": "Companies",
+            "schema": {
+                "id": {
+                    "allowNull": false,
+                    "primaryKey": true,
+                    "autoIncrement": true,
+                    "field": "id",
+                    "seqType": "Sequelize.INTEGER"
+                },
+                "name": {
+                    "allowNull": false,
+                    "IsEmpty": false,
+                    "field": "name",
+                    "seqType": "Sequelize.STRING"
+                },
+                "createdAt": {
+                    "allowNull": false,
+                    "field": "createdAt",
+                    "seqType": "Sequelize.DATE"
+                },
+                "updatedAt": {
+                    "allowNull": false,
+                    "field": "updatedAt",
+                    "seqType": "Sequelize.DATE"
+                }
+            },
+            "indexes": []
+        }
+    },
+    "path": "/Users/vikasmishra/desktop/SoothSayer/MLFramework/migrations/_current.json",
+    "backupPath": "/Users/vikasmishra/desktop/SoothSayer/MLFramework/migrations/_current_bak.json",
+    "exists": false,
+    "revision": 1
+}
