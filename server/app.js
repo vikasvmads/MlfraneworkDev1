@@ -34,7 +34,7 @@ app.use("*", cors());
 app.use("/", indexRouter);
 app.use("/company", companyRouter);
 app.use("/users", usersRouter);
-app.use("/query", queryRouter);
+//app.use("/query", queryRouter);
 
 app.use(errorHandler);
 
