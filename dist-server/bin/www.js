@@ -14,7 +14,7 @@ var _http = _interopRequireDefault(require("http"));
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 const debug = (0, _debug.default)("mlframework:server");
-var port = normalizePort(process.env.PORT || "8080");
+var port = normalizePort(process.env.PORT || "3000");
 
 _app.default.set("port", port);
 /**

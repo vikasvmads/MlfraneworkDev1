@@ -9,7 +9,7 @@ import debugLib from "debug";
 import http from "http";
 const debug = debugLib("mlframework:server");
 
-var port = normalizePort(process.env.PORT || "8080");
+var port = normalizePort(process.env.PORT || "3000");
 app.set("port", port);
 
 /**
